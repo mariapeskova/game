@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#define size 56
+
+struct roslina
+{
+    char nazwa[20];
+    int czas;
+    int cena_kup;
+    int cena_sprzedaj;
+};
